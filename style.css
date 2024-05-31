@@ -1,0 +1,143 @@
+*{
+padding: 0;
+margin: 0;
+font-family: "Nanum Myeongjo", serif;
+font-weight: 400;
+font-style: normal;
+}
+/* .section-1{
+    background-image: url(./accest/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+} */
+.section-1 img{
+width: 100%;
+height: 100%;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.names1{
+    display: flex;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+.names1 h2{
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+/* .nav .names1 h2 :hover{
+    background-color: rgba(197, 197, 197, 0.945);
+} */
+.names1 h3{
+    display :flex ;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+
+    width: 1050px;
+    margin: auto;
+}
+.imgtext img{
+   width: 100%;
+   height: 85%;
+}
+.imgtext{
+    width: 50%;
+    margin: auto 0;
+    padding: 25px;
+}
+.imgtext h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.imgtext h3 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.line{
+  
+    width: 75%;
+     text-align: center;
+     margin: auto;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    margin: auto;
+}
+
+.sideimg{
+    width: 50%;
+    margin: auto 0;
+    padding: 25px;
+}
+.sideimg img{
+    width: 100%;
+    height: 85%;
+}
+.sideimg h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.sideimg h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.sideimg p{
+    color: gray;
+    font-size: 15px;
+}
+.section-4{
+
+    width: 1050px; 
+    margin: auto;
+}
+.section-4 h1{
+    font-weight: bold;
+}
+.section-4 p{
+    font-size: 13px;
+}
+.section-4 h3{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(17, 138, 138);
+    letter-spacing: 1px;
+
+}
+.inputs input{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.submit input{
+    margin-top: 20px ;
+    width: 15%;
+    height: 30px;
+    border: none;
+    background-color: rgba(195, 200, 204, 0.24);
+}
+.section-5{
+    background-color: rgba(179, 174, 174, .38);
+}
+.section-5 p{
+    text-align: center;
+}
